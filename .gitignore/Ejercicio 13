@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+//13.- Merida Franchesca Hernandez Castañeda
+
+    float dias, kilometraje, precio, total;
+
+    cout<< "Ingresa los dias de estancia: ";
+    cin>> dias;
+    cout<< "Ingresa los km: ";
+    cin>> kilometraje;
+
+    if(dias > 7 && kilometraje >800)
+    {
+        precio=(kilometraje*0.17)*(0.7);
+    }
+    else
+        precio= kilometraje*0.17;
+        cout<<precio;
+
+    return 0;
+}
