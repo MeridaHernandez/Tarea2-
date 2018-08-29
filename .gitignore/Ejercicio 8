@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+//8.- Merida Franchesca Hernandez Castañeda
+
+    int numeros;
+
+    cout<< "Inserte un numero de 5 digitos: ";
+    cin>> numeros;
+
+    cout<< "\n" << numeros / 10000 << "      " << numeros % 10000 / 1000 << "      "
+        << numeros % 1000 / 100 << "      " << numeros % 100 / 10 << "      "
+        << numeros % 10 <<endl;
+    return 0;
+}
